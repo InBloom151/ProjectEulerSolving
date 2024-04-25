@@ -1,6 +1,6 @@
 def sum_of_multiples(limit, divisor):
     n = (limit - 1) // divisor
-    return divisor * n * (n + 1)
+    return divisor * n * (n + 1) // 2
 
 def sum_multiples_3_or_5(limit):
     sum_multiples_3 = sum_of_multiples(limit, 3)
